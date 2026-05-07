@@ -180,6 +180,3 @@ Your values may change if you use a different `BAND.dat`, fitting window, polyno
 - If automatic VBM/CBM detection fails, pass `--vbm-band` and `--cbm-band` manually.
 
 
-```
-
-Replace `YOUR-USERNAME` and `YOUR-REPO` with your GitHub username and repository name.
