@@ -179,33 +179,7 @@ Your values may change if you use a different `BAND.dat`, fitting window, polyno
 - Hole effective mass is reported as a positive value using `|m*|`.
 - If automatic VBM/CBM detection fails, pass `--vbm-band` and `--cbm-band` manually.
 
-## Uploading to GitHub
 
-Recommended files to include:
-
-```text
-README.md
-effective_mass.py
-effective_mass.ipynb
-BAND.dat
-```
-
-Do not upload generated cache folders such as:
-
-```text
-__pycache__/
-.ipynb_checkpoints/
-```
-
-Basic Git commands:
-
-```bash
-git init
-git add README.md effective_mass.py effective_mass.ipynb BAND.dat
-git commit -m "Add effective mass calculator"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO.git
-git push -u origin main
 ```
 
 Replace `YOUR-USERNAME` and `YOUR-REPO` with your GitHub username and repository name.
